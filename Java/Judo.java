@@ -1,3 +1,4 @@
+package Java;
 /*
  * Judo.java
  * Noah Guan
@@ -27,7 +28,7 @@ public class Judo{
 class JudoPanel extends JPanel {
     public JudoPanel() {
         setLayout(new BorderLayout());
-        
+
         add(new InteractivePanel());
     }
     class InteractivePanel extends JPanel {
